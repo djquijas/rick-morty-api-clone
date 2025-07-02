@@ -23,14 +23,30 @@ a {
     align-items: center;
 }
 
-.nav-header-ul  button {
+.nav-header-ul li a {
+    color: rgb(32, 35, 41);
+    transition: all 0.2s ease-in-out;
+
+}
+
+.nav-header-ul li a:hover {
+    color: rgb(255, 152, 0);
+} 
+
+.nav-header-ul  span {
     background-color: transparent;
     color: rgb(32, 35, 41);
     border: 1px solid rgb(255, 152, 0);
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 1em 1.3em;
-    border-radius: 1em;
+    padding: 0.7em 1.3em;
+    border-radius: 0.7em;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-header-ul span:hover {
+    color: #FFF;
+    background-color: rgba(255, 152, 0);
 }
 
 
