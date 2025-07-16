@@ -1,13 +1,24 @@
 .hero{
     background-color: rgb(255, 255, 255);
     width: 100vw;
-    height: 4em;
-    font-size: 70px;
+    height: calc(-60px + 50vh);
     text-align: center;
     color: rgb(32, 35, 41);
+    font-size: 4.375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero h1 {
     margin: 0;
     font-weight: 900;
+    line-height: 1.1;
+}
+
+@media screen and (max-width: 55.62rem) {
+    .hero h1 {
+        font-size: 3.75rem;
+        font-weight: 900;
+    }
 }

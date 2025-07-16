@@ -11,16 +11,28 @@ a {
 .nav-header {
     display: flex;
     justify-content: space-between;
+    padding: 0 1.5rem;
+    align-items: center;
+    min-height: 60px;
+    /* width: 100%; */
     /* max-height: 1em; */
+}
+
+.nav-header a img {
+    height: 46px;
+    width: 46px;
 }
 
 .nav-header-ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
     list-style-type: none;
     gap: 2em;
     margin-right: 2em;
     font-weight: bolder;
-    align-items: center;
 }
 
 .nav-header-ul li a {

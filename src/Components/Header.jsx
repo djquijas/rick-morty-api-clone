@@ -3,7 +3,9 @@ const Header = () => {
     return (
         <header>
             <nav className="nav-header">
-                <img src="#" alt="Icono de Rick and Morty" />
+                <a href="">
+                    <img src="src/assets/ricknmorty.svg" alt="Rick and morty logo" />
+                    </a>
                 <ul className="nav-header-ul">
                     <li><a href="#">Docs</a></li>
                     <li><a href="">About</a></li>
