@@ -2,6 +2,7 @@ import '../Styles/Card.css'
 import { useEffect, useState } from "react"
 
 const Card = ({children}) => {
+
     const URL = 'https://rickandmortyapi.com/api/character/'
 
     const [characterData, setCharacterData] = useState(null)
@@ -14,7 +15,6 @@ const Card = ({children}) => {
             })
     }, [])
 
-    console.log(characterData)
     return (
          characterData != null ?
         <article className="card-container">

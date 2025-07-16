@@ -1,12 +1,12 @@
 import Card from "./Card"
 const Main = () => {
-    
+    const cards = []
+    for(let i=0; i<=6; i++) {
+        cards.push(<Card key={i}>{Math.floor(Math.random() * 826)}</Card>)
+    }
     return (
         <main>
-            <Card>{1}</Card>
-            <Card>{2}</Card>
-            <Card>{3}</Card>
-            <Card>{4}</Card>
+            {cards}
         </main>
     )
 }

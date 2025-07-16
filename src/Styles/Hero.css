@@ -16,6 +16,10 @@
     line-height: 1.1;
 }
 
+.hero span {
+    font-size: 1rem;
+}
+
 @media screen and (max-width: 55.62rem) {
     .hero h1 {
         font-size: 3.75rem;
