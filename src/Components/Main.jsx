@@ -1,11 +1,12 @@
 import Card from "./Card"
+import '../Styles/Main.css'
 const Main = () => {
     const cards = []
-    for(let i=0; i<=6; i++) {
+    for(let i=0; i<=5; i++) {
         cards.push(<Card key={i}>{Math.floor(Math.random() * 826)}</Card>)
     }
     return (
-        <main>
+        <main className="main-content">
             {cards}
         </main>
     )

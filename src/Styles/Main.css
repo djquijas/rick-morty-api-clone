@@ -1,0 +1,9 @@
+.main-content {
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4.5rem 0px;
+}
+

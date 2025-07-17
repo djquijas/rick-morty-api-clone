@@ -1,8 +1,9 @@
 .card-container {
-    width: 600px;
+    width: 37.5rem;
     height: 220px;
     background-color: rgb(60, 62, 68);
     border-radius: 0.5rem;
+    /* margin: 0 auto; */
     margin: 0.75rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     display: flex;
@@ -11,8 +12,10 @@
     overflow: hidden;
 }
 
-.info {
+.info h2 {
+    line-height: 1;
 }
+
 
 .info .status {
     padding-left: 17px;

@@ -1,6 +1,6 @@
 .hero{
     background-color: rgb(255, 255, 255);
-    width: 100vw;
+    width: 99vw;
     height: calc(-60px + 50vh);
     text-align: center;
     color: rgb(32, 35, 41);

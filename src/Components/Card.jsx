@@ -27,7 +27,7 @@ const Card = ({children}) => {
                 <p>Last Known location</p>
                 <h3>{characterData.location.name}</h3>
                 <p>Fisrt seen in:</p>
-                <h3>{characterData.episode[0]}</h3>
+                {/* <h3>{characterData.episode[0]}</h3> */}
             </section>
         </article> : <p>Loading...</p>
     )
